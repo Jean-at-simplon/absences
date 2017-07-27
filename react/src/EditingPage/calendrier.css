@@ -1,0 +1,96 @@
+.calendrier td {
+	width: 35px;
+  height: 27px;
+}
+
+.calendrier .normal        {background-color: #fff;}
+.calendrier .jaune         {background-color: #ffa;}
+
+.calendrier .rouge         {background-color: #FDAAAB;}
+.calendrier .rougeEstompe  {background-color: #B94242;}
+.calendrier .bleu          {background-color: #AAACFC;}
+.calendrier .bleuEstompe   {background-color: #5555A8;}
+.calendrier .vert          {background-color: #ACFEAD;}
+.calendrier .vertEstompe   {background-color: #4D984E;}
+.calendrier .mauve         {background-color: #FDACFD;}
+.calendrier .mauveEstompe  {background-color: #944894;}
+.calendrier .gris          {background-color: #ddd;}
+
+.calendrier .policeEstompee{
+  color: #eee;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.calendrier .policeClaire{
+  color: #fff;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.calendrier .bleuUser {
+	background-color: #b2c5ff;
+	width: 12%;
+	font-size: 12px;
+}
+
+.calendrier .mois {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.calendrier .policeNormale{
+  font-color: #000;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.calendrier table, .calendrier tr, .calendrier th, .calendrier td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 11px;
+  background-color: #fff;
+}
+
+#calendrier, #legend {
+  width: 100%;
+}
+
+#legendText {
+  font-size: 14px;
+}
+
+#legend td, #legend th {
+  font-size: 12px;
+}
+
+.calendrier .border, #legend .border {
+	border: 2px solid black;
+ }
+
+.calendrier .borderB {
+  border-style: solid;
+  border-color: black;
+  border-bottom-width: 2px;
+}
+
+.calendrier .borderL {
+  border-style: solid;
+  border-color: black;
+  border-left-width: 2px;
+}
+
+.calendrier .borderR {
+  border-style: solid;
+  border-color: black;
+  border-right-width: 2px;
+}
+
+#leftcalendrier, #todaycalendrier {
+  margin-right: 30px;
+}
+
+.lienCalendrier a, .lienCalendrier a:hover, .lienCalendrier a:link, .lienCalendrier a:visited, .lienCalendrier a:active {
+  text-decoration: none;
+  color: black;
+}
